@@ -70,7 +70,7 @@ namespace GeoLocationAPI.V1.Services
                 response.IPFoundInGeoDB = false;
                 _logger.LogWarning(incomingIP + " Unable to Parse");
                 response.Message = (incomingIP + " Unable to Parse");
-                Activity.Current?.SetTag("otel.status_code", "Error");
+                Activity.Current?.SetTag("otel.status_code", "ERROR");
                 Activity.Current?.SetTag("otel.status_description", incomingIP + " Unable to Parse");
                 return await Task.FromResult(response);
             }
