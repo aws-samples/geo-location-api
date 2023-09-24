@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoLocationAPI", "GeoLocationAPI.csproj", "{35CE1917-56B2-4DC1-8BA2-7E97D0F30E01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35CE1917-56B2-4DC1-8BA2-7E97D0F30E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CE1917-56B2-4DC1-8BA2-7E97D0F30E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CE1917-56B2-4DC1-8BA2-7E97D0F30E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CE1917-56B2-4DC1-8BA2-7E97D0F30E01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CE07B92-A595-4C19-AF04-7E5C585065E8}
+	EndGlobalSection
+EndGlobal
