@@ -1,6 +1,7 @@
 using GeoLocationAPI.Swagger;
 using GeoLocationAPI.V1.HealthChecks;
 using GeoLocationAPI.V1.Services;
+using GeoLocationAPI.V1.Helpers;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
@@ -44,6 +45,7 @@ builder.Services.AddVersionedApiExplorer(
         options.SubstituteApiVersionInUrl = true;
     });
 builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
+builder.Services.AddSingleton<Instrumentation>();
 
 builder.Services.AddSwaggerGen(
         options =>
